@@ -18,31 +18,7 @@ function playBeeGees() {
   beegees.play(); 
 } 
 
-/*
-const elements = getElementsByClassName("content");
-const elementOne = elements[0];
-
-elementOne.insertAdjacentHTML('beforeend', `
-    <button type="button" class="btn" onclick="playBeeGees()">
-        Music
-    </button>
-`);
-*/
-
-/*
-const elements = getElementsByClassName("content");
-const elementOne = elements[0];
-
-const musicButton = document.createElement("button");
-
-musicButton.type = "button";
-musicButton.textContent = "Music";
-musicButton.id = "musicButton";
-
-elementOne.appendChild(musicButton);
-*/
-
-//this statement is real
+// this statement is so real i don't care who quotes me on it
 //document.write("I like booty cheeks");
 
 
