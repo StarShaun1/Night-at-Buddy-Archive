@@ -20,7 +20,8 @@ function playBeeGees() {
   beegees.play(); 
 } 
 
-// this statement is so real i don't care who quotes me on it
+// this statement is so real
+// i don't care who quotes me on it
 //document.write("I like booty cheeks");
 
 
