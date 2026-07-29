@@ -47,3 +47,7 @@ elementOne.appendChild(musicButton);
 
 
 document.write('<button type="button" class="btn" id="musicButton">Music</button>');
+
+document.getElementById("musicButton").addEventListener('click', () => {
+    playBeeGees();
+});
