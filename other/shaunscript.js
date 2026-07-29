@@ -23,4 +23,6 @@ musicButton.textContent = "Music";
 musicButton.className = "btn btn-primary";
 musicButton.id = "musicButton";
 
+document.body.append(musicButton);
+
 // ahh
