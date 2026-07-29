@@ -18,6 +18,7 @@ function playBeeGees() {
   beegees.play(); 
 } 
 
+/*
 const elements = getElementsByClassName("content");
 const elementOne = elements[0];
 
@@ -26,6 +27,17 @@ elementOne.insertAdjacentHTML('beforeend', `
         Music
     </button>
 `);
+*/
 
+const elements = getElementsByClassName("content");
+const elementOne = elements[0];
+
+const musicButton = document.createElement("button");
+
+musicButton.type = "button";
+musicButton.textContent = "Music";
+musicButton.id = "musicButton";
+
+elementOne.appendChild(musicButton);
 
 // ahh
