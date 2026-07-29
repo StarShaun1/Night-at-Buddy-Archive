@@ -18,4 +18,9 @@ function playBeeGees() {
   beegees.play(); 
 } 
 
+const musicButton = document.createButton("button");
+musicButton.textContent = "Music";
+musicButton.className = "btn btn-primary";
+musicButton.id = "musicButton";
+
 // ahh
