@@ -42,5 +42,8 @@ musicButton.id = "musicButton";
 elementOne.appendChild(musicButton);
 */
 
-document.write("I like booty cheeks");
-// ahh
+//this statement is real
+//document.write("I like booty cheeks");
+
+
+document.write('<button type="button" class="btn" id="musicButton">Music</button>');
