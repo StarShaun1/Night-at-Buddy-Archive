@@ -18,11 +18,14 @@ function playBeeGees() {
   beegees.play(); 
 } 
 
-const musicButton = document.createButton("button");
-musicButton.textContent = "Music";
-musicButton.className = "btn btn-primary";
-musicButton.id = "musicButton";
+const elements = getElementsByClassName("content");
+const elementOne = elements[0];
 
-document.body.append(musicButton);
+elementOne.insertAdjacentHTML('beforeend', `
+    <button type="button" class="btn" onclick="playBeeGees()">
+        Music
+    </button>
+`);
+
 
 // ahh
