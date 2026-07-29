@@ -29,6 +29,7 @@ elementOne.insertAdjacentHTML('beforeend', `
 `);
 */
 
+/*
 const elements = getElementsByClassName("content");
 const elementOne = elements[0];
 
@@ -39,5 +40,7 @@ musicButton.textContent = "Music";
 musicButton.id = "musicButton";
 
 elementOne.appendChild(musicButton);
+*/
 
+document.write("I like booty cheeks");
 // ahh
