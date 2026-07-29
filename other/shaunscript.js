@@ -5,11 +5,13 @@ alert("Welcome to my profile");
 
 var orange = Math.floor(Math.random() * (10 - 1 + 1)) + 1; 
 
+/*
 if (orange === 1) { 
   alert("Give orange"); 
 } else { 
   console.log("Awww, no orange message " + orange); 
 } 
+*/
 
 //playBeeGees(); 
 
